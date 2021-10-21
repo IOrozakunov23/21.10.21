@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(236, 227, 227);
+}
+tr:nth-child(4) {
+  color: black;
+  background-color: rgb(126, 248, 248);
+}
+tr:nth-of-type(12) {
+  background-color: white;
+  border-top: 1px solid black;
+}
+
+th {
+  text-align: center;
+}
