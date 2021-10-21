@@ -1,26 +1,26 @@
-table {
-  border-collapse: collapse;
-  width: 60%;
+h1 {
+  font-family: "Andada Pro", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Scheherazade New", serif;
 }
-
-th,
-td {
-  text-align: left;
-  padding: 8px;
+html {
+  font-family: 'Andada Pro', serif;
 }
-
-tr:nth-child(even) {
-  background-color: rgb(236, 227, 227);
+header p {
+  font-size: 20px;
 }
-tr:nth-child(4) {
-  color: black;
-  background-color: rgb(126, 248, 248);
+aside p{
+  font-size: 14px;
 }
-tr:nth-of-type(12) {
-  background-color: white;
-  border-top: 1px solid black;
-}
-
-th {
+header h1{
+  font-size: 50px;
   text-align: center;
+}
+header{
+  width: 600px;
+  margin: 0 auto ;
+}
+article{
+  width: 600px;
+  margin: 0 auto;
 }
