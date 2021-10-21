@@ -1,6 +1,6 @@
-h1 {
+h1{
   font-family: "Andada Pro", serif;
-  font-size: 200px;
+  
 }
 html {
   font-family: "Scheherazade New", serif;
@@ -20,3 +20,13 @@ header,article{
   width: 600px;
   margin: 0 auto;
 }
+article p{
+color: gray;
+}
+h1 p{
+  text-decoration-line: black ;
+}
+li{
+  list-style-type:circle;
+}
+sss
