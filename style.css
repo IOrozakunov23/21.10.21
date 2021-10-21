@@ -27,5 +27,25 @@ h1 p{
   text-decoration-line: black ;
 }
 li{
-  list-style-type:circle; s
+  list-style-type:circle; 
+}
+a[title]{
+  color: darkred;
+}
+a[href="index.html"]{
+  font-weight: bold;
+  font-size: 100px;
+}
+a[href="#"]{
+  color: green;
+}
+a[href$="le"]{
+  font-style: italic;
+  font-size: 100px;
+}
+a[href*="www.google.com"]{
+font-size: 100px;
+}
+a[href*="example"]{
+  font-size: 100px;
 }
